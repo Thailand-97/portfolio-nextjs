@@ -21,7 +21,7 @@ const About = () => {
             Fascinated with how intricate programming can be I was quickly drawn
             to learn more. I started learning Javascript and was even more
             enthused with designing websites. I am
-            now spending my time building projects with React JS, Firebase, and
+            now spending my time building projects with React JS, Next JS, and
             learning new technologies.
           </p>
         </div>
