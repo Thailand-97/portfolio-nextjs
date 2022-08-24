@@ -11,7 +11,7 @@ const About = () => {
           <p className='uppercase text-xl tracking-widest text-[#800000]'>
             About
           </p>
-          <h2 className='py-4'>Who I Am</h2>
+          <h2 className='py-4'>Who Am I</h2>
           <p className='py-2 text-gray-600'>
              I have always had a passion for
             technology and working with computers. In 2020 I started working
@@ -24,14 +24,9 @@ const About = () => {
             now spending my time building projects with React JS, Firebase, and
             learning new technologies.
           </p>
-          <Link href='/#projects'>
-            <p className='py-2 text-gray-600 underline cursor-pointer'>
-              Check out my Resume.
-            </p>
-          </Link>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image src={AboutImg} className='rounded-xl' alt='/' /> 
+          <Image src={AboutImg} className='rounded-x' alt='/' /> 
         </div>
       </div>
     </div>
