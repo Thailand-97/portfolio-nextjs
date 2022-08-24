@@ -15,7 +15,7 @@ const About = () => {
           <p className='py-2 text-gray-600'>
              I have always had a passion for
             technology and working with computers. In 2020 I started working
-            with HTML, CSS, JavaScript, ReactJs, NextJs, and AWS to.
+            with HTML, CSS, JavaScript, ReactJs, NextJs, and AWS.
           </p>
           <p className='py-2 text-gray-600'>
             Fascinated with how intricate programming can be I was quickly drawn
