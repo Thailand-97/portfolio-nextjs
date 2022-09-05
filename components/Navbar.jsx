@@ -60,7 +60,7 @@ const Navbar = () => {
               <Link href='/#contact'>Contact</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#contact'>Project</Link>
+              <Link href='/#projects'>Projects</Link>
             </li>
           </ul>
           <div
@@ -132,6 +132,11 @@ const Navbar = () => {
                   Contact
                 </li>
               </Link>
+              <Link href='/#projects'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                  Projects
+                </li>
+              </Link>
             </ul>
             <div className='pt-40'>
               <p className='uppercase tracking-widest text-[#800000]'>
@@ -164,7 +169,7 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </Link>
-                <Link href='/#resume'>
+                <Link href='/#projects'>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
