@@ -1,7 +1,7 @@
 import React from 'react';
 import FoodApp from '../public/assets/skills/Food-App.png'
 import WeatherApp from '../public/assets/skills/Weather-App.png'
-import DriverApp from '../public/assets/skills/Car-app.png'
+import DriverApp from '../public/assets/skills/Car-App.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
