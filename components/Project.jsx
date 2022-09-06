@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
 import FoodApp from '../public/assets/skills/Food-App.png'
 import WeatherApp from '../public/assets/skills/Weather-App.png'
@@ -27,12 +25,11 @@ const Projects = () => {
             projectUrl='https://tsfl-eats.vercel.app/'
             tech='React JS'
           />
-              <ProjectItem
+          <ProjectItem
             title='Driver App'
             backgroundImg={DriverApp}
             projectUrl='https://driver-react-app1.vercel.app/'
             tech='React JS'
-
           />
         </div>
       </div>
