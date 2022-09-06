@@ -3,6 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import FoodApp from '../public/assets/skills/Food-App.png'
 import WeatherApp from '../public/assets/skills/Weather-App.png'
+import DriverApp from '../public/assets/skills/Car-app.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -24,6 +25,12 @@ const Projects = () => {
             title='TSFL Eats'
             backgroundImg={FoodApp}
             projectUrl='https://tsfl-eats.vercel.app/'
+            tech='React JS'
+          />
+              <ProjectItem
+            title='Driver App'
+            backgroundImg={DriverApp}
+            projectUrl='https://driver-react-app1.vercel.app/'
             tech='React JS'
 
           />
